@@ -20,7 +20,7 @@ router.get('/home', ensureAuthenticated,(req, res) => {
   var theme = jsonfile.readFileSync(themes);
     var options = {
         method: 'GET',
-        url: `https://raw.githubusercontent.com/LachlanDev/Discord-BOT-Dashboard-V2/main/src/config/version.json`, // Update This
+        url: ``, // Update This
         headers: {
           'User-Agent': 'Discord-Bot-Dashboard',
           useQueryString: true
