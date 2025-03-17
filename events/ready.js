@@ -1,11 +1,12 @@
-const chalk = require("chalk");
 const config = require("../config/config.json");
 const vers = require("../config/version.json");
 const figlet = require('figlet');
 const lolcatjs = require('lolcatjs');
 
-module.exports = (client) => {
+module.exports = async (client) => {
     console.clear();
+
+    const chalk = (await import('chalk')).default;
 
     // Создание баннера
     const banner = figlet.textSync('Southern Department of Justice', {
