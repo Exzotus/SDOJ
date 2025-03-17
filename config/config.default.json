@@ -1,0 +1,9 @@
+{
+    "clientID":"YOURID",
+    "clientSecret":"YOURSECRET",
+    "callbackURL":"http://localhost:1337/login/api",
+    "Admin":["YOURID"],
+    "token":"YOURID",
+    "prefix":"-",
+    "port":"1337"
+}
